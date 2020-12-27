@@ -35,4 +35,96 @@
         android:textAlignment="center"
         android:textSize="12sp" />
 
+    <TextView
+        android:id="@+id/tv_repo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/your_number_of_repository" />
+
+    <TextView
+        android:id="@+id/repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/tv_repo"
+        android:text="@string/number_of_repo" />
+
+    <TextView
+        android:id="@+id/tv_follower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_follower"
+        android:layout_below="@+id/tv_repo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/follower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repository"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tv_repo"
+        android:text="Your follower here" />
+
+    <TextView
+        android:id="@+id/tv_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of following:"
+        android:layout_below="@+id/tv_follower"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/follower"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tv_repo"
+        android:text="Your following here" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name:"
+        android:layout_below="@+id/tv_following"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/following"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tv_repo"
+        android:text="Your company here" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:layout_below="@+id/tv_company"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tv_repo"
+        android:text="Your location here" />
+
 </RelativeLayout>

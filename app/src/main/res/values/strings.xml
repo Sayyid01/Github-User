@@ -2,6 +2,9 @@
     <string name="app_name">Github User</string>
     <string name="username">Username</string>
     <string name="name">Your name here</string>
+    <string name="number_of_repo">Your repository here</string>
+    <string name="your_number_of_repository">Number of repository:</string>
+    <string name="number_of_follower">Number of followers:</string>
 
     <string-array name="username">
         <item>JakeWharton</item>
