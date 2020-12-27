@@ -5,6 +5,13 @@
     <string name="number_of_repo">Your repository here</string>
     <string name="your_number_of_repository">Number of repository:</string>
     <string name="number_of_follower">Number of followers:</string>
+    <string name="your_follower_here">Your follower here</string>
+    <string name="number_of_following">Number of following:</string>
+    <string name="your_following_here">Your following here</string>
+    <string name="company_name">Company name:</string>
+    <string name="your_company_here">Your company here</string>
+    <string name="location">Location:</string>
+    <string name="your_location_here">Your location here</string>
 
     <string-array name="username">
         <item>JakeWharton</item>
